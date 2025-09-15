@@ -1,0 +1,19 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg width="320" height="64" viewBox="0 0 320 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title2">
+  <title id="title2">لوگو پرداخت طلایی</title>
+  <rect width="100%" height="100%" fill="transparent"></rect>
+
+  <g transform="translate(12,8)">
+    <rect x="0" y="0" width="48" height="48" rx="10" fill="#F5A623"></rect>
+    <path d="M14 18
+             C14 12, 30 12, 30 18
+             C30 24, 22 26, 18 30
+             L18 18 Z" fill="#ffffff"></path>
+    <rect x="17" y="32" width="6" height="4" rx="2" fill="#fff"></rect>
+  </g>
+
+  <g transform="translate(78,38)">
+    <text x="0" y="-6" font-family="Vazir, Tahoma, Arial, sans-serif" font-size="22" fill="#222" font-weight="700">پرداخت</text>
+    <text x="0" y="16" font-family="Vazir, Tahoma, Arial, sans-serif" font-size="12" fill="#777">درگاه پرداخت</text>
+  </g>
+</svg>

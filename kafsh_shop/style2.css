@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    background: #03050e;
+    font-family: "Rubik", sans-serif;
+}
+#myTextInput::placeholder {
+    color: white; 
+    opacity: 1; 
+}
+
+#myTextInput::-webkit-input-placeholder { 
+    color: white; 
+    opacity: 1;
+}
+
+#myTextInput::-moz-placeholder { 
+    color: white; 
+    opacity: 1;
+}
+
+#myTextInput:-ms-input-placeholder { 
+    color: white; 
+    opacity: 1;
+}
+
+.h2{
+    padding: 10px;
+    color: #43f752;
+    direction: rtl;
+    font-size: 20px;
+}
+.jadval{
+    width: 100%;
+    height: auto;
+    border: 1px solid #43f752;
+}
+.tr{
+    border: 1px solid white;
+}
+.tr1{
+    border: 1px solid white;
+    
+}
+.th{
+    color: white;
+}
+.th1{
+    color: white;
+    position: relative;
+    right: 50px;
+}
+.btn{
+    color: white;
+    background: #43f752;
+    width: 150px;
+    padding: 10px;
+    border-radius: 7px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h3{
+    text-align: center;
+    color: #43f752;
+}
+.form{
+    width: 1020px;
+    height: 630px;
+    background: #101530;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.lab{
+    margin-top: 30px;
+    color: #7f8296;
+}
+.form>input{
+    width: 90%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #03050e;
+    border: 1.5px solid #262626;
+}
+.address{
+    width: 90%;
+    height: 250px;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #03050e;
+}
+.form>input:focus{
+    border: none;
+}
+.form>input:focus{
+    border:1px solid#00d60b;
+    transition: 0.5s;
+}
+.btn1{
+    margin-bottom: 10px;
+    text-decoration: none;
+    padding:15px 100px;
+    background: #43f752;
+    border-radius: 7px;
+    color: black;
+}
+@media (max-width: 750px) {
+    .tr{
+        font-size: 10px;
+    }
+    .th{
+       font-size: 10px; 
+    }
+    .th1{
+       font-size: 10px; 
+       right:20px ;
+    }
+    .form{
+        width: 450px;
+        height: 550px;
+    }
+    .primary{
+        display: none;
+    }
+}
+@media (max-width: 1200px) {
+    .form{
+        width: 450px;
+        height: 550px;
+    }
+    .primary{
+        display: none;
+    }
+}
+@media (max-width: 1400px) {
+    .primary{
+        display: none;
+    }
+}

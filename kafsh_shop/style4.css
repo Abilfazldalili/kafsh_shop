@@ -1,0 +1,46 @@
+body { 
+    font-family: 'Tahoma', sans-serif;
+    margin: 20px;
+    background-color: #f8f9fa; 
+}
+h2 { 
+    color: #007bff; 
+    margin-bottom: 20px; 
+    text-align: right; 
+}
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-bottom: 30px; 
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+}
+th, td { 
+    border: 1px solid #dee2e6; 
+    padding: 12px; 
+    text-align: right; 
+}
+th { 
+    background-color: #e9ecef;
+    color: #495057; 
+    font-weight: bold; 
+}
+td { 
+    color: #343a40; 
+}
+.order-details-table th, .order-details-table td { 
+    text-align: center; 
+}
+.order-item-header { 
+    background-color: #cfe2ff; 
+    color: #084298; 
+}
+.alert-info { 
+    background-color: #d1ecf1; 
+    color: #0c5460; 
+    border-color: #bee5eb; 
+    padding: 10px; 
+    margin-bottom: 20px; 
+    border-radius: 5px; 
+    text-align: right; 
+}
